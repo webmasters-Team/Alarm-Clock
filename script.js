@@ -4,7 +4,7 @@ const setAlarmBtn = document.querySelector("button");
 const content = document.querySelector(".content");
 
 let alarmTime, isAlarmSet = false,
-ringtone = new Audio("./assets/digital_alarm.mp3");
+ringtone = new Audio("digital_alarm.mp3");
 
 for(let i=12; i>0; i--){
     i = i < 10 ? "0" + i : i;
